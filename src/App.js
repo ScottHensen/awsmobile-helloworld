@@ -4,6 +4,7 @@ import './App.css';
 import Game from './Game';
 import Todos from './Todos';
 import ImageViewer from './ImageViewer';
+import GuessNumber from './GuessNumber';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Game />
         <Todos />
         <ImageViewer />
+        <GuessNumber />
       </div>
     );
   }

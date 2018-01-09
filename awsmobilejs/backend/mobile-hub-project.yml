@@ -9,14 +9,33 @@ features:
         paths:
           /todos: !com.amazonaws.mobilehub.v0.Function 
             name: todos
-            codeFilename: uploads/todos-20180108185905.zip
+            codeFilename: uploads/todos-20180108215253.zip
             handler: lambda.handler
             enableCORS: true
             runtime: nodejs6.10
             environment: {}
           '/todos/{proxy+}': !com.amazonaws.mobilehub.v0.Function 
             name: todos
-            codeFilename: uploads/todos-20180108185905.zip
+            codeFilename: uploads/todos-20180108215253.zip
+            handler: lambda.handler
+            enableCORS: true
+            runtime: nodejs6.10
+            environment: {}
+      Guesses: !com.amazonaws.mobilehub.v0.API 
+        attributes:
+          name: Guesses
+          requires-signin: false
+        paths:
+          /number: !com.amazonaws.mobilehub.v0.Function 
+            name: guesses
+            codeFilename: uploads/guesses-20180108215253.zip
+            handler: lambda.handler
+            enableCORS: true
+            runtime: nodejs6.10
+            environment: {}
+          '/number/{proxy+}': !com.amazonaws.mobilehub.v0.Function 
+            name: guesses
+            codeFilename: uploads/guesses-20180108215253.zip
             handler: lambda.handler
             enableCORS: true
             runtime: nodejs6.10

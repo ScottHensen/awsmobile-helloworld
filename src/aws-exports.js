@@ -8,7 +8,7 @@
 const awsmobile = {
     'aws_app_analytics': 'enable',
     'aws_cloud_logic': 'enable',
-    'aws_cloud_logic_custom': [{"id":"oohbqolh62","name":"todosCRUD","description":"","endpoint":"https://oohbqolh62.execute-api.us-east-1.amazonaws.com/Development","region":"us-east-1","paths":["/todos","/todos/123"]}],
+    'aws_cloud_logic_custom': [{"id":"oohbqolh62","name":"todosCRUD","description":"","endpoint":"https://oohbqolh62.execute-api.us-east-1.amazonaws.com/Development","region":"us-east-1","paths":["/todos","/todos/123"]},{"id":"oam9x18tda","name":"Guesses","description":"","endpoint":"https://oam9x18tda.execute-api.us-east-1.amazonaws.com/Development","region":"us-east-1","paths":["/number","/number/123"]}],
     'aws_cognito_identity_pool_id': 'us-east-1:e3464c30-b44b-44b7-bdd2-04fc060697bc',
     'aws_cognito_region': 'us-east-1',
     'aws_content_delivery': 'enable',
