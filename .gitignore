@@ -24,6 +24,9 @@ yarn-error.log*
 awsmobilejs/.awsmobile/backend-build
 awsmobilejs/\#current-backend-info
 
+#awsmobilejs dependencies
+/awsmobilejs/backend/cloud-api/todos/node_modules
+
 #old shite files
 /src-og
 /src-v1

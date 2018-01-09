@@ -3,6 +3,7 @@ import { withAuthenticator } from 'aws-amplify-react';
 import './App.css';
 import Game from './Game';
 import Todos from './Todos';
+import ImageViewer from './ImageViewer';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div>
         <Game />
         <Todos />
+        <ImageViewer />
       </div>
     );
   }
